@@ -1,0 +1,61 @@
+html{
+    height: 100vh;
+    font-family: Baloo;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    padding: 10px;
+    background-image: linear-gradient(#5DA4D9,#FFF);
+}
+
+.pers{
+text-align: center;
+}
+
+.red-buttons button {
+    font-family: baloo;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+    background-color: tomato;
+}
+
+.green-buttons button {
+    font-family: ballo;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin:  0 4px;
+    background-color:greenyellow ;
+}
+.green-buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.red-buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 ;
+}
+input{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    height: 30px;
+    background: white;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+}
+.emoji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
